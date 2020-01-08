@@ -15,14 +15,16 @@ public class No141 {
         if (head != null && head.next != null) {
             ListNode slow = head;
             ListNode fast = head.next;
-            while (slow.next != null && fast.next != null && fast.next.next != null) {
+            while (slow.next != null && fast .next != null && fast.next.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
                 if (slow == fast) {
                     return true;
                 }
             }
+            return false;
+        }else {
+            return false;
         }
-        return false;
     }
 }
