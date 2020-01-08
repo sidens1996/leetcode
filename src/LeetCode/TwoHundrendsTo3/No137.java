@@ -11,13 +11,23 @@ package LeetCode.TwoHundrendsTo3;
 public class No137 {
 
     public int singleNumber(int[] nums) {
-        int one = 0;
-        int two = 0;
-        for (int i = 0; i < nums.length; i++) {
-            one = (~two) & (one ^ nums[i]);
-            two = (~one) & (two ^ nums[i]);
+//        int one = 0;
+//        int two = 0;
+//        for (int i = 0; i < nums.length; i++) {
+//            one = (~two) & (one ^ nums[i]);
+//            two = (~one) & (two ^ nums[i]);
+//        }
+//        return one;
+        // k = 3(11), p = 1(01), 则m = 2
+        int x2 = 0, x1 = 0, mask = 0;
+        for (int num : nums) {
+            x2 ^= (x1 & num);
+            x1 ^= num;
+            mask = ~(x1 & x2);
+            x2 &= mask;
+            x1 &= mask;
         }
-        return one;
+        return x1;
     }
 
     public static void main(String[] args) {
