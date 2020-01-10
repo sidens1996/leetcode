@@ -12,9 +12,6 @@ import DataStructure.ListNode;
 
 public class No147 {
     public ListNode insertionSortList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
         // 新建一个链表头进行插入，免去每次重新找头的烦恼
         ListNode newHead = new ListNode(0);
         ListNode temp = newHead;
