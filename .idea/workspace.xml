@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e506c0-5c9f-4ebb-8f25-aaf6767f2ff5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/TwoHundrendsTo3/No143.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +193,7 @@
       <workItem from="1578378438251" duration="24871000" />
       <workItem from="1578459994573" duration="5047000" />
       <workItem from="1578548334023" duration="954000" />
-      <workItem from="1578630633511" duration="5434000" />
+      <workItem from="1578630633511" duration="7649000" />
     </task>
     <task id="LOCAL-00001" summary="add 125">
       <created>1578405511805</created>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578494799310</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 143">
+      <created>1578642748858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578642748858</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +276,8 @@
     <MESSAGE value="add 136" />
     <MESSAGE value="add 137" />
     <MESSAGE value="add 141" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 141" />
+    <MESSAGE value="add 143" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 143" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Custom_Plugin_Repositories" timestamp="1577869616743">
@@ -297,10 +304,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578044682193" />
-    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1578642728258">
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1578642745583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578642728258" />
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578642745583" />
     <state x="607" y="124" key="FileChooserDialogImpl" timestamp="1578399974448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -350,10 +357,10 @@
     </state>
     <state x="328" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578400023594" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577869714234" />
-    <state x="263" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578494806224">
+    <state x="263" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578642756171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578494806224" />
+    <state x="263" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578642756171" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578404346541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
