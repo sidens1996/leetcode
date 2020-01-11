@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64e506c0-5c9f-4ebb-8f25-aaf6767f2ff5" name="Default Changelist" comment="" />
+    <list default="true" id="64e506c0-5c9f-4ebb-8f25-aaf6767f2ff5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/TwoHundrendsTo3/No153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +196,7 @@
       <workItem from="1578459994573" duration="5047000" />
       <workItem from="1578548334023" duration="954000" />
       <workItem from="1578630633511" duration="19918000" />
-      <workItem from="1578715046642" duration="15467000" />
+      <workItem from="1578715046642" duration="16995000" />
     </task>
     <task id="LOCAL-00001" summary="add 125">
       <created>1578405511805</created>
@@ -335,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578744131008</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modify 151">
+      <created>1578744673840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578744673840</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +381,8 @@
     <MESSAGE value="modify 148" />
     <MESSAGE value="add 150" />
     <MESSAGE value="add 151" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 151" />
+    <MESSAGE value="modify 151" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify 151" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Custom_Plugin_Repositories" timestamp="1577869616743">
@@ -398,10 +409,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578044682193" />
-    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1578744455297">
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1578745931928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578744455297" />
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578745931928" />
     <state x="607" y="124" key="FileChooserDialogImpl" timestamp="1578399974448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
