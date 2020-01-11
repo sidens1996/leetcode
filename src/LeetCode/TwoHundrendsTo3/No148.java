@@ -31,8 +31,9 @@ public class No148 {
         if (head == null || head.next == null) {
             return head;
         }
+        // 快慢指针
         ListNode slow = head, fast = head, pre = null;
-        while (fast.next != null && fast.next.next != null) {
+        while (fast != null && fast.next != null) {
             pre = slow;
             slow = slow.next;
             fast = fast.next.next;
@@ -67,10 +68,10 @@ public class No148 {
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(-1);
-        head.next = new ListNode(-5);
-        head.next.next = new ListNode(9);
-        head.next.next.next = new ListNode(5);
+        ListNode head = new ListNode(4);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(1);
+        head.next.next.next = new ListNode(3);
         ListNode.printList(new No148().sortList(head));
     }
 }
