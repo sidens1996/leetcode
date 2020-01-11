@@ -2,7 +2,7 @@ package LeetCode.TwoHundrendsTo3;
 
 /**
  * @ClassName: No151
- * @Description: leetcode第151题
+ * @Description: leetcode第151题，Reverse Words in a String
  * @Author: Achilles
  * @Date: 11/01/2020  18:52
  * @Version: 1.0
@@ -18,11 +18,11 @@ public class No151 {
         for (; left > 0; left--) {
             while (s.charAt(right) == ' ' && right > 0) right--;
             if (s.charAt(left - 1) == ' ' && s.charAt(left) != ' ') {
-                stringBuilder.append(s.substring(left, right + 1)).append(' ');
+                stringBuilder.append(s, left, right + 1).append(' ');
                 right = left - 1;
             }
         }
-        stringBuilder.append(s.substring(left, right + 1));
+        stringBuilder.append(s, left, right + 1);
         // 去掉最后面的空格
         for (int i = stringBuilder.length() - 1; i >= 0; i--) {
             if (stringBuilder.charAt(i) != ' ') {
