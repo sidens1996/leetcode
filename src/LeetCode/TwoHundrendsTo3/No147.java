@@ -17,7 +17,7 @@ public class No147 {
      * 新建一个头结点的方法可以免去每次重新找头结点的烦恼
      *
      * 更精妙的思路是采用类似归并排序的方法来解决问题
-     * private ListNode sentinel = new ListNode(-1);
+     *     private ListNode sentinel = new ListNode(-1);
      *
      *     public ListNode insertionSortList(ListNode head) {
      *         return sortList(head);
@@ -96,6 +96,7 @@ public class No147 {
      *         return sentinel.next;
      *     }
      */
+
     public ListNode insertionSortList(ListNode head) {
         // 新建一个链表头进行插入，免去每次重新找头的烦恼
         ListNode newHead = new ListNode(0);
